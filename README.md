@@ -24,12 +24,14 @@ count the number of words
 Giving print statement for getting output
 
 ## PROGRAM:
+```
 num_words =0
 with open('text.txt','r') as file1:
  for i in file1:
  word =i.split()
  num_words += len(word)
 print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
 ![Output](https://github.com/Yuvan291205/Word-count/assets/138849170/b4cf7398-57c7-4189-96be-4393376e67da)
 
